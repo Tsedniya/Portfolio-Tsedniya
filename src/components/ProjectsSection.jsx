@@ -1,7 +1,7 @@
 // ProjectsSection.jsx
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
-import project1Img from "../assets/projects/project1.jpg";
+import photo from "../assets/projects/photo.jpg";
 import project2Img from "../assets/projects/project2.jpg";
 import project3Img from "../assets/projects/project3.jpg";
 import project4Img from "../assets/projects/project4.jpg";
@@ -11,7 +11,7 @@ const projects = [
     id: 1,
     title: "Website of Grand Bishoftu Hospital",
     description: "A beautiful Grand Bishoftu Hospital website using React and Tailwind.",
-    image: project1Img,
+    image: photo,
     tags: ["React", "TailwindCSS"],
     demoUrl: "#",
     githubUrl: "https://github.com/Tsedniya/Grand_Bishoftu_Hospital",

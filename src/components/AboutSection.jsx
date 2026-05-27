@@ -16,7 +16,7 @@ export const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground">
-             With over 1½ years of experience in web development, I focus on building responsive, accessible, and high-performance web applications using modern technologies.
+             With over 2 years of experience in web development, I focus on building responsive, accessible, and high-performance web applications using modern technologies.
             </p>
 
             <p className="text-muted-foreground">
@@ -51,10 +51,9 @@ export const AboutSection = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg"> Web Development</h4>
+                  <h4 className="font-semibold text-lg"> Backend Development</h4>
                   <p className="text-muted-foreground">
-                    Creating responsive websites and web applications with
-                    modern frameworks.
+                    Building scalable backend systems and APIs with secure authentication, database integration, and efficient server-side logic.
                   </p>
                 </div>
               </div>
