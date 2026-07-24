@@ -5,27 +5,27 @@ import photo from "../assets/projects/photo.jpg";
 import project2Img from "../assets/projects/project2.jpg";
 import project3Img from "../assets/projects/project3.jpg";
 import project4Img from "../assets/projects/project4.jpg";
+import ge from "../assets/projects/ge.jpg";
 
 const projects = [
   {
     id: 1,
     title: "Website of Grand Bishoftu Hospital",
-    description: "A beautiful Grand Bishoftu Hospital website using React and Tailwind.",
-    image: photo,
+    description:
+      "A beautiful Grand Bishoftu Hospital website using React and Tailwind.",
+    image: ge,
     tags: ["React", "TailwindCSS"],
-    demoUrl: "#",
     githubUrl: "https://github.com/Tsedniya/Grand_Bishoftu_Hospital",
-    deploy: "https://bishoftugeneralhospital.netlify.app/"
+    deploy: "https://bishoftugeneralhospital.netlify.app/",
   },
   {
     id: 2,
-    title: "Skin Care website",
-    description:
-      "Interactive and beautiful Skin Care website.",
+    title: "Skin Care Website",
+    description: "Interactive and beautiful Skin Care website.",
     image: project2Img,
     tags: ["TypeScript", "Next.js", "TailwindCSS"],
-    demoUrl: "#",
     githubUrl: "https://github.com/Tsedniya/Enku-Skin-Care",
+    deploy: "", // Add deployed URL when available
   },
   {
     id: 3,
@@ -34,20 +34,19 @@ const projects = [
       "Full-featured e-commerce platform with user authentication and payment processing.",
     image: project3Img,
     tags: ["React", "TailwindCSS"],
-    demoUrl: "#",
     githubUrl: "https://github.com/Tsedniya/Forever-E-commerce",
+    deploy: "",
   },
-   {
+  {
     id: 4,
     title: "Grocery Delivery Website",
     description: "Grocery Delivery Website built with React and Tailwind.",
-    image: project4Img, 
-    tags: ["TailwindCSS", "React"],
-    demoUrl: "#",
+    image: project4Img,
+    tags: ["React", "TailwindCSS"],
     githubUrl: "https://github.com/Tsedniya/Grocery-Delivery-Website",
+    deploy: "https://grocery-delivery-website-eight.vercel.app",
   },
 ];
-
 
 export const ProjectsSection = () => {
   return (
@@ -94,15 +93,27 @@ export const ProjectsSection = () => {
                 </p>
 
                 <div className="flex justify-between items-center">
-                  <div className="flex space-x-3">
-                   
+                  <div className="flex gap-3">
+                    {project.deploy && (
+                      <a
+                        href={project.deploy}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 px-4 py-2 rounded-2xl bg-blue-500 text-white text-sm font-medium hover:bg-blue-600 transition-colors"
+                      >
+                        <ExternalLink size={16} />
+                        Live Demo
+                      </a>
+                    )}
+
                     <a
                       href={project.githubUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                      className="inline-flex items-center gap-2 px-4 py-2 rounded-2xl border border-gray-300 text-foreground hover:bg-blue-500"
                     >
-                      <Github size={24} />
+                      <Github size={16} />
+                      GitHub
                     </a>
                   </div>
                 </div>
