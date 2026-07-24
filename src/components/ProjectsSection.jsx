@@ -15,6 +15,7 @@ const projects = [
     tags: ["React", "TailwindCSS"],
     demoUrl: "#",
     githubUrl: "https://github.com/Tsedniya/Grand_Bishoftu_Hospital",
+    deploy: "https://bishoftugeneralhospital.netlify.app/"
   },
   {
     id: 2,
