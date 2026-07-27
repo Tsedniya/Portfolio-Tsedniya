@@ -6,6 +6,8 @@ import project2Img from "../assets/projects/project2.jpg";
 import project3Img from "../assets/projects/project3.jpg";
 import project4Img from "../assets/projects/project4.jpg";
 import ge from "../assets/projects/ge.jpg";
+import tsehay from "../assets/projects/tsehay.jpg";
+import confix from  "../assets/projects/confix.jpg";
 
 const projects = [
   {
@@ -20,22 +22,22 @@ const projects = [
   },
   {
     id: 2,
-    title: "Skin Care Website",
-    description: "Interactive and beautiful Skin Care website.",
-    image: project2Img,
+    title: "ConfiX",
+    description: "Conference management system with role-based access, conference creation, speaker proposals, session scheduling.",
+    image: confix,
     tags: ["TypeScript", "Next.js", "TailwindCSS"],
-    githubUrl: "https://github.com/Tsedniya/Enku-Skin-Care",
-    deploy: "", // Add deployed URL when available
+    githubUrl: "https://github.com/Tsedniya/ConfiX",
+    deploy: "", 
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Real Estate Marketplace",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: project3Img,
-    tags: ["React", "TailwindCSS"],
-    githubUrl: "https://github.com/Tsedniya/Forever-E-commerce",
-    deploy: "",
+      "MERN real estate marketplace with JWT authentication, Google OAuth, Redux Toolkit, property listings, and profile management.",
+    image: tsehay,
+    tags: ["MERN Stack"],
+    githubUrl: "https://github.com/Tsedniya/Real-Estate-Marketplace",
+    deploy: "https://real-estate-marketplace-frontend-xi.vercel.app/",
   },
   {
     id: 4,
@@ -99,7 +101,7 @@ export const ProjectsSection = () => {
                         href={project.deploy}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-2 px-4 py-2 rounded-2xl bg-blue-500 text-white text-sm font-medium hover:bg-blue-600 transition-colors"
+                        className="inline-flex items-center gap-2 px-4 py-2 rounded-2xl cosmic-button text-white text-sm font-medium "
                       >
                         <ExternalLink size={16} />
                         Live Demo
@@ -110,7 +112,7 @@ export const ProjectsSection = () => {
                       href={project.githubUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 px-4 py-2 rounded-2xl border border-gray-300 text-foreground hover:bg-blue-500"
+                      className="inline-flex items-center gap-2 px-4 py-2 rounded-2xl border border-gray-300 text-foreground hover:cosmic-button"
                     >
                       <Github size={16} />
                       GitHub

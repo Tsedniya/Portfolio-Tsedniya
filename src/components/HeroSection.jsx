@@ -21,7 +21,7 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            I craft smooth, responsive, and visually clear web interfaces. I work mainly with React and Next.js to bring ideas to life with clean code and solid user experience.
+            I build full-stack web applications with MERN and Next.js, combining responsive interfaces, secure APIs, authentication, and database-driven features to create complete and reliable digital experiences.
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
