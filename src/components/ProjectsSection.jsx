@@ -7,8 +7,7 @@ import project3Img from "../assets/projects/project3.jpg";
 import project4Img from "../assets/projects/project4.jpg";
 import ge from "../assets/projects/ge.jpg";
 import tsehay from "../assets/projects/tsehay.jpg";
-import confix from  "../assets/projects/confix.jpg";
-import port from "../assets/projects/port.jpg";
+import edom12 from  "../assets/projects/edom12.jpg";
 
 const projects = [
   {
@@ -23,12 +22,12 @@ const projects = [
   },
   {
     id: 2,
-    title: "Lyka Mimics",
-    description: "Lyka Mimics is essentially a personal digital-creative portfolio and gallery website. Its main purpose is to showcase creative work.",
-    image: port,
-    tags: ["TypeScript", "Next.js", "TailwindCSS"],
-    githubUrl: "https://github.com/lykacreative/thelyka",
-    deploy: "https://www.lykamimics.com", 
+    title: "Forever",
+    description: "A modern e-commerce platform that allows users to browse products, search and filter items, view detailed product information, add products to a shopping cart.",
+    image: edom12,
+    tags: ["MERN Stack"],
+    githubUrl: "https://github.com/Tsedniya/Forever-E-commerce",
+    deploy: "https://forever-e-commerce-ksty.vercel.app", 
   },
   {
     id: 3,
