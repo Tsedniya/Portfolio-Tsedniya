@@ -8,6 +8,7 @@ import project4Img from "../assets/projects/project4.jpg";
 import ge from "../assets/projects/ge.jpg";
 import tsehay from "../assets/projects/tsehay.jpg";
 import confix from  "../assets/projects/confix.jpg";
+import port from "../assets/projects/port.jpg";
 
 const projects = [
   {
@@ -22,12 +23,12 @@ const projects = [
   },
   {
     id: 2,
-    title: "ConfiX",
-    description: "Conference management system with role-based access, conference creation, speaker proposals, session scheduling.",
-    image: confix,
+    title: "Lyka Mimics",
+    description: "Lyka Mimics is essentially a personal digital-creative portfolio and gallery website. Its main purpose is to showcase creative work.",
+    image: port,
     tags: ["TypeScript", "Next.js", "TailwindCSS"],
-    githubUrl: "https://github.com/Tsedniya/ConfiX",
-    deploy: "", 
+    githubUrl: "https://github.com/lykacreative/thelyka",
+    deploy: "https://www.lykamimics.com", 
   },
   {
     id: 3,
