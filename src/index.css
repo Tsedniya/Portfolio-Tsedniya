@@ -160,3 +160,23 @@
   padding: 0;
   text-align: center;
 }
+
+@layer base {
+  .scrollbar-custom::-webkit-scrollbar {
+    width: 8px;
+  }
+  .scrollbar-custom::-webkit-scrollbar-track {
+    background: hsl(var(--background));
+  }
+  .scrollbar-custom::-webkit-scrollbar-thumb {
+    background: hsl(var(--primary));
+    border-radius: 9999px;
+  }
+  .scrollbar-custom::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--primary) / 0.8);
+  }
+  .scrollbar-custom {
+    scrollbar-width: thin;
+    scrollbar-color: hsl(var(--primary)) hsl(var(--background));
+  }
+}
